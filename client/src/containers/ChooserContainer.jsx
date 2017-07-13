@@ -1,10 +1,11 @@
 import React from 'react'
+import Chooser from '../components/Chooser.jsx'
 
 class ChooserContainer extends React.Component {
 
   render() {
     return (
-      <div>I am a chooser container</div>
+      <Chooser></Chooser>
     )
   }
 
